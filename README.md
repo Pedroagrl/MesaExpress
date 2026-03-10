@@ -3,7 +3,6 @@
 ## 📌 Sobre o Projeto
 
 O **MesaExpress** é um sistema permite que clientes realizem pedidos em restaurantes cadastrados, escolham formas de pagamento, recebam notificações e acompanhem o processo de entrega.
-Este projeto foi desenvolvido como atividade acadêmica para demonstrar conceitos de **engenharia de software, modelagem UML e boas práticas de arquitetura de sistemas**.
 
 ---
 
