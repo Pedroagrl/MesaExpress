@@ -41,9 +41,6 @@ Cada classe possui uma única responsabilidade dentro do sistema.
 Exemplos:
 
 - Pedido → gerenciamento de pedidos
-- PixService → processamento de pagamentos via Pix
-- EmailService → envio de notificações por email
-
 ---
 
 ## O — Open/Closed Principle
