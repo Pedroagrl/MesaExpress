@@ -81,4 +81,58 @@ Exemplo:
 
 As classes de alto nível dependem de **abstrações (interfaces)** e não de implementações concretas.
 
-Exemplo:
+---
+
+# 🧩 Aplicação dos Princípios GRASP
+
+<img src="DiagramaDeClasse/DiagramaPizzariaGrasp.png" width="900">
+
+O projeto **MesaExpress** também aplica princípios **GRASP**, auxiliando na organização das responsabilidades entre as classes do sistema.
+
+---
+
+## Controller
+
+O princípio **Controller** foi aplicado em `PedidoController`, responsável por operações como criar pedido, atualizar status e processar pagamento.
+
+---
+
+## Information Expert
+
+O princípio **Information Expert** foi aplicado em `Pedido`, que concentra informações para calcular total, atualizar status e gerenciar o pedido.
+
+---
+
+## Creator
+
+O princípio **Creator** foi aplicado na relação entre `Pedido` e `ItemPedido`, pois o pedido agrupa e gerencia seus itens.
+
+---
+
+## Low Coupling e High Cohesion
+
+Esses princípios foram aplicados com o uso de interfaces e com a separação de responsabilidades entre classes como `Pedido`, `Restaurante` e `Entregador`.
+
+---
+
+## Polymorphism
+
+O princípio **Polymorphism** foi aplicado nas implementações de:
+
+- `IPagamentoService`
+- `INotificacaoService`
+- `IEntregaService`
+
+---
+
+## Pure Fabrication
+
+O princípio **Pure Fabrication** foi aplicado nas classes de serviço, como `PixService`, `EmailService` e `SMSService`.
+
+---
+
+## Indirection e Protected Variations
+
+Esses princípios foram aplicados com o uso de interfaces, permitindo adicionar novas formas de pagamento, notificação e entrega sem alterar a estrutura principal do sistema.
+
+---
